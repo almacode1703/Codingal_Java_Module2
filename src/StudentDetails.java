@@ -25,8 +25,5 @@ public class StudentDetails {
         System.out.println(s4.sname+" "+ s4.sgender+" "+s4.sphone);
         System.out.println(s5.sname+" "+ s5.sgender+" "+s5.sphone);
         System.out.println(s6.sname+" "+ s6.sgender+" "+s6.sphone);
-
-
-
     }
 }
