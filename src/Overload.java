@@ -9,7 +9,6 @@ class Parent {
 }
 
 class Child1 extends Parent{
-    String name;
     int age;
     Child1( String name, int age){
         super(name);
@@ -18,16 +17,14 @@ class Child1 extends Parent{
 
     @Override
     public String Display() {
-        return "Name : "+this.name+ " Age : "+this.age;
+        return super.Display()+ " Age : "+this.age;
     }
-
     public String Fun(){
         return "Overload works in JAVA";
     }
 }
 
 class Child2 extends Parent{
-    String name;
     int age;
     boolean isAdult;
     Child2( String name, int age, boolean isAdult){

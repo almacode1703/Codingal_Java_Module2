@@ -10,7 +10,7 @@ class Car {
     }
 
     public void Display(){
-        System.out.println("My Car is : "+this.color+" with a price tag of  "+this.price+" and weights "+this.weight + "pounds");
+        System.out.println("My Car is : "+this.color+" with a price tag of $"+this.price+" and weighs "+this.weight + " pounds");
     }
 }
 
@@ -36,5 +36,6 @@ class Mercedes extends Car {
 public class OverrideExample {
     public static void main(String[] args) {
         Mercedes benz = new Mercedes("Blue", 55556.545,120,"German Company");
+        benz.Display();
     }
 }
